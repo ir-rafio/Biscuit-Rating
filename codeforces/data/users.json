@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T11:47:19+00:00",
+  "fetched_at": "2026-10-24T14:42:02+00:00",
   "missing": [],
   "users": {
     "-..-": {
@@ -769,6 +769,19 @@
       "rating": 1605,
       "titlePhoto": "https://userpic.codeforces.org/3535036/title/583c852dad240589.jpg"
     },
+    "_mohiuddin_re3ta7t_": {
+      "avatar": "https://userpic.codeforces.org/1390680/avatar/3e978843fa7e97d.jpg",
+      "country": "Bangladesh",
+      "firstName": "Mohiuddin",
+      "handle": "_MoHiudDiN_rE3ta7T_",
+      "lastName": "Bilwal Ayon",
+      "maxRank": "pupil",
+      "maxRating": 1376,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1365,
+      "titlePhoto": "https://userpic.codeforces.org/1390680/title/f3a9be2be6c30267.jpg"
+    },
     "_munshi_": {
       "avatar": "https://userpic.codeforces.org/3367942/avatar/a9fd800d23c9b511.jpg",
       "country": "Bangladesh",
@@ -1405,6 +1418,19 @@
       "rank": "pupil",
       "rating": 1276,
       "titlePhoto": "https://userpic.codeforces.org/3077988/title/976ba26836cdc8bd.jpg"
+    },
+    "abrar_mahir_esam": {
+      "avatar": "https://userpic.codeforces.org/2037311/avatar/e5545a2c9319a3d5.jpg",
+      "country": "Bangladesh",
+      "firstName": "Abrar",
+      "handle": "Abrar_Mahir_Esam",
+      "lastName": "Mahir Esam",
+      "maxRank": "specialist",
+      "maxRating": 1425,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1229,
+      "titlePhoto": "https://userpic.codeforces.org/2037311/title/95162325887baeaf.jpg"
     },
     "abrar_tahsin": {
       "avatar": "https://userpic.codeforces.org/4836367/avatar/5b07ce9f5fed0787.jpg",
@@ -2966,6 +2992,19 @@
       "rating": 1348,
       "titlePhoto": "https://userpic.codeforces.org/3599453/title/5bab8aa607859a3c.jpg"
     },
+    "arif_sadik": {
+      "avatar": "https://userpic.codeforces.org/3260325/avatar/45dcf88d9b2cc69a.jpg",
+      "country": null,
+      "firstName": null,
+      "handle": "Arif_Sadik",
+      "lastName": null,
+      "maxRank": "pupil",
+      "maxRating": 1379,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1229,
+      "titlePhoto": "https://userpic.codeforces.org/3260325/title/f55ae724437797b5.jpg"
+    },
     "ariffn": {
       "avatar": "https://userpic.codeforces.org/4922432/avatar/279a04838fb4f03e.jpg",
       "country": null,
@@ -2978,6 +3017,19 @@
       "rank": "pupil",
       "rating": 1237,
       "titlePhoto": "https://userpic.codeforces.org/4922432/title/818d65d7f3c2d236.jpg"
+    },
+    "ariful101": {
+      "avatar": "https://userpic.codeforces.org/3313345/avatar/9bcc1b3530a94cf7.jpg",
+      "country": "Bangladesh",
+      "firstName": "Md",
+      "handle": "Ariful101",
+      "lastName": "Ariful Islam",
+      "maxRank": "pupil",
+      "maxRating": 1323,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1323,
+      "titlePhoto": "https://userpic.codeforces.org/3313345/title/b0bb2972e58972be.jpg"
     },
     "arijit_biswas": {
       "avatar": "https://userpic.codeforces.org/3173737/avatar/a5bb6662b311a78d.jpg",
@@ -5215,6 +5267,19 @@
       "rating": null,
       "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
     },
+    "ellora_12": {
+      "avatar": "https://userpic.codeforces.org/1490375/avatar/6c14271b62d71aba.jpg",
+      "country": "Bangladesh",
+      "firstName": "Ellora",
+      "handle": "Ellora_12",
+      "lastName": "Yasi",
+      "maxRank": "newbie",
+      "maxRating": 977,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "newbie",
+      "rating": 932,
+      "titlePhoto": "https://userpic.codeforces.org/1490375/title/2f5decd0f5585af6.jpg"
+    },
     "else_if_tridib21": {
       "avatar": "https://userpic.codeforces.org/3651653/avatar/64920f3165b14b17.jpg",
       "country": "Bangladesh",
@@ -5761,6 +5826,19 @@
       "rating": 1363,
       "titlePhoto": "https://userpic.codeforces.org/3029343/title/f0f7f23d42e01d7e.jpg"
     },
+    "farhan1717": {
+      "avatar": "https://userpic.codeforces.org/no-avatar.jpg",
+      "country": "Bangladesh",
+      "firstName": null,
+      "handle": "farhan1717",
+      "lastName": null,
+      "maxRank": "pupil",
+      "maxRating": 1315,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1315,
+      "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
+    },
     "farhan20": {
       "avatar": "https://userpic.codeforces.org/1390028/avatar/faaac252543bf938.jpg",
       "country": "Bangladesh",
@@ -5773,6 +5851,19 @@
       "rank": "expert",
       "rating": 1619,
       "titlePhoto": "https://userpic.codeforces.org/1390028/title/1c1778b08175a57c.jpg"
+    },
+    "farhan_nasif_nizami": {
+      "avatar": "https://userpic.codeforces.org/1516333/avatar/ba1cf448ec084753.jpg",
+      "country": "Bangladesh",
+      "firstName": "Farhan",
+      "handle": "Farhan_Nasif_Nizami",
+      "lastName": "Nasif Nizami",
+      "maxRank": "specialist",
+      "maxRating": 1468,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "pupil",
+      "rating": 1236,
+      "titlePhoto": "https://userpic.codeforces.org/1516333/title/da4ee9b232f1701f.jpg"
     },
     "farhan_sharkar": {
       "avatar": "https://userpic.codeforces.org/3049723/avatar/3795338d4ac05927.jpg",
@@ -6800,6 +6891,19 @@
       "rank": "newbie",
       "rating": 980,
       "titlePhoto": "https://userpic.codeforces.org/1427627/title/d1853794f8f34642.jpg"
+    },
+    "ibtehaz6319": {
+      "avatar": "https://userpic.codeforces.org/no-avatar.jpg",
+      "country": "Bangladesh",
+      "firstName": "Mohammed Ibtehazul",
+      "handle": "Ibtehaz6319",
+      "lastName": "Haque",
+      "maxRank": "newbie",
+      "maxRating": 889,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "newbie",
+      "rating": 772,
+      "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
     },
     "iftakher_ibn": {
       "avatar": "https://userpic.codeforces.org/no-avatar.jpg",
@@ -10675,6 +10779,19 @@
       "rating": 1793,
       "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
     },
+    "nabihaparvez11": {
+      "avatar": "https://userpic.codeforces.org/2883118/avatar/6a069c5edd129cab.jpg",
+      "country": "Bangladesh",
+      "firstName": "Nabiha",
+      "handle": "nabihaparvez11",
+      "lastName": "Parvez",
+      "maxRank": "newbie",
+      "maxRating": 1105,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "newbie",
+      "rating": 967,
+      "titlePhoto": "https://userpic.codeforces.org/2883118/title/445a6332bbb8848e.jpg"
+    },
     "nadidadit": {
       "avatar": "https://userpic.codeforces.org/1150362/avatar/ccf37c9c6584f8b.jpg",
       "country": "Bangladesh",
@@ -11623,6 +11740,19 @@
       "rank": "pupil",
       "rating": 1299,
       "titlePhoto": "https://userpic.codeforces.org/3534182/title/4f1e1973638cd10e.jpg"
+    },
+    "not_possible": {
+      "avatar": "https://userpic.codeforces.org/5250166/avatar/f01adbb3f93beee6.jpg",
+      "country": "Bangladesh",
+      "firstName": null,
+      "handle": "Not_Possible",
+      "lastName": null,
+      "maxRank": "newbie",
+      "maxRating": 1142,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "newbie",
+      "rating": 1120,
+      "titlePhoto": "https://userpic.codeforces.org/5250166/title/cb12b038ce37d634.jpg"
     },
     "not_visible_for_all": {
       "avatar": "https://userpic.codeforces.org/3735118/avatar/f364b207e322492d.jpg",
@@ -13053,6 +13183,19 @@
       "rank": "newbie",
       "rating": 1094,
       "titlePhoto": "https://userpic.codeforces.org/3456372/title/8a83d165336a0219.jpg"
+    },
+    "raisul_rahad": {
+      "avatar": "https://userpic.codeforces.org/no-avatar.jpg",
+      "country": "Bangladesh",
+      "firstName": "Md. Raiusl",
+      "handle": "raisul_rahad",
+      "lastName": "Rahad",
+      "maxRank": "pupil",
+      "maxRating": 1290,
+      "organization": "Military Institute of Science and Technology",
+      "rank": "newbie",
+      "rating": 1016,
+      "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
     },
     "rajesh_1920": {
       "avatar": "https://userpic.codeforces.org/3086201/avatar/9fd202ee4b0eb086.jpg",
