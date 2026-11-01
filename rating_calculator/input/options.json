@@ -1,7 +1,7 @@
 {
   "calculator": "BISCUIT",
   "parameters": {
-    "time_decay_rate": 0.2,
+    "time_decay_rate": 0,
     "time_decay_pulse_days": 30
   }
 }

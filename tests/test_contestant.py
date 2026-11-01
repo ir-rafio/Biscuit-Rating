@@ -47,11 +47,11 @@ def test_members_validation_explains_every_problem():
 
 
 def test_contestant_rating_starts_from_a_virtual_contest():
-    winner = contest("MU 2025").teams[0]
+    winner = contest("ICPC 2025").teams[0]
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
         members = write_members(root / "members.csv", [
-            ["MU 2025", winner.institution, winner.name, "Solo_Winner", "", ""],
+            ["ICPC 2025", winner.institution, winner.name, "Solo_Winner", "", ""],
         ])
         contestant_rating.run(
             ROOT / "contestant_rating/input", members, ROOT / "performance_calculator/output",
@@ -66,12 +66,12 @@ def test_contestant_rating_starts_from_a_virtual_contest():
 
 
 def test_virtual_contest_share_depends_on_credits_not_time():
-    icpc, aust = contest("ICPC 2024").teams[0], contest("AUST 2025").teams[0]
+    icpc, aust = contest("ICPC 2024").teams[0], contest("ICPC 2025").teams[0]
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
         members = write_members(root / "members.csv", [
             ["ICPC 2024", icpc.institution, icpc.name, "champion", "", ""],
-            ["AUST 2025", aust.institution, aust.name, "champion", "", ""],
+            ["ICPC 2025", aust.institution, aust.name, "champion", "", ""],
         ])
         contestant_rating.run(
             ROOT / "contestant_rating/input", members, ROOT / "performance_calculator/output",
@@ -79,9 +79,9 @@ def test_virtual_contest_share_depends_on_credits_not_time():
         )
         history = pd.read_csv(root / "out/history.csv")
     assert history["Performance"].tolist() == [4000, 4000]
-    # The prior's share is 1/(1 + 3) after the ICPC and 1/(1 + 3 + 1) after the IUPC,
-    # however much the ICPC has decayed: winning again raises the rating.
-    assert history["Rating"].tolist() == [round(math.sqrt((1000 ** 2 + 3 * 4000 ** 2) / 4)), round(math.sqrt((1000 ** 2 + 4 * 4000 ** 2) / 5))]
+    # The prior's share is 1/(1 + 1) after the first ICPC and 1/(1 + 1 + 1) after the second,
+    # however much the first has decayed: winning again raises the rating.
+    assert history["Rating"].tolist() == [round(math.sqrt((1000 ** 2 + 4000 ** 2) / 2)), round(math.sqrt((1000 ** 2 + 2 * 4000 ** 2) / 3))]
 
 
 def test_codeforces_fetch_skips_unknown_and_records_renames(monkeypatch):

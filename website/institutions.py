@@ -72,6 +72,8 @@ def load_institutions(
             position, previous = index, rating
         history = []
         for contest_name, score in sorted(scores.get(name, {}).items(), key=lambda item: contests[item[0]].date):
+            if contest_name not in ratings[name]:
+                continue  # zero-credit contests before the first credited one leave no rating
             teams = entries.get((name, contest_name), [])
             ranked_teams = [team for team, _, _ in teams if team.rank is not None]
             best = min(ranked_teams, key=lambda team: team.rank, default=None)

@@ -1,7 +1,7 @@
 {
   "contestant_rating": {
-    "inputs": "85f6ab33239f8da0bd4c607b7b43b2c4974fae8acbe52596ca687436be83f516",
-    "outputs": "b5d5c721c406957d532195e156a8f56db02d82acaf8816ff1efcdb82cbd2a1fe"
+    "inputs": "274bcb68c2d8767ed0e908b00af9791234fbf670f5705f822b68e77c859e6f62",
+    "outputs": "e393724bf460593c0ca0f296e41d1c92f238217898cea23038960522e0473627"
   },
   "parser": {
     "inputs": "23e34f768c3daa632dea533d7dc6303456eae2901b3aa3585f21f0d4773311d4",
@@ -12,8 +12,8 @@
     "outputs": "9b5bb2141e641062f87dea4768d2ff4a8c0dbe4f5d6e5d18e08c9d255f4ac2b3"
   },
   "rating_calculator": {
-    "inputs": "d6bda44b4d6feb16525f73777d9906bd1105a54a019f2d9c36500b1281f58325",
-    "outputs": "b5e17f74497396403625f87db94c48fdafd66db71997602cd8000de56ed67295"
+    "inputs": "43bbff4b7eb2656b4b06325b75ca819e9998624f9d5d87c269d0988d43902128",
+    "outputs": "fcb68a3ae39dcdf214db8b2db31a80170d4e635bd0fe3685b8a6ecfeab056159"
   },
   "score_calculator": {
     "inputs": "814b8909e8c8cada80610368bf467e6d8e7f96074ae0b245bc47c68e3f56c154",

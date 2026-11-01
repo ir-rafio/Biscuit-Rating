@@ -54,8 +54,8 @@ def _validate_contests(root: Path) -> list[str]:
     for name, credit in credits.items():
         if name not in names:
             errors.append(f"credits.json has a credit for an unknown contest: {name}")
-        if not isinstance(credit, (int, float)) or credit <= 0:
-            errors.append(f"Contest {name} must have a positive credit, not {credit!r}.")
+        if not isinstance(credit, (int, float)) or credit < 0:
+            errors.append(f"Contest {name} must have a non-negative credit, not {credit!r}.")
     errors += [
         f"Standings file is not used by any contest: {path.name}"
         for path in sorted(source_directory.glob("*.html"))

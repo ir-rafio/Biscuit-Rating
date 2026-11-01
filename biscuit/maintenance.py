@@ -44,8 +44,8 @@ def add_contest(
     name = name.strip().upper()
     date.fromisoformat(contest_date)
     get_parser(parser)
-    if credit <= 0:
-        raise ValueError("Credit must be greater than zero.")
+    if credit < 0:
+        raise ValueError("Credit must be zero or more.")
     if not html_paths:
         raise ValueError("At least one contest HTML file is required.")
     contests_path = root / "parser/input/contests.json"
