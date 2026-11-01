@@ -109,6 +109,6 @@ def run(
     slots, waiting_list = distributor.distribute(considered)
     generate_excel(considered[["Institution", "Rating"]], slots, waiting_list, output_path)
     # Plain copies for tools that cannot read the workbook.
-    slots.to_csv(output_directory / "slots.csv", index=False)
+    slots[["Institution", "Rating", "Slots"]].to_csv(output_directory / "slots.csv", index=False)
     waiting_list.to_csv(output_directory / "waiting_list.csv", index=False)
     return output_path
