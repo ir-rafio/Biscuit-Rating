@@ -1,6 +1,6 @@
 {
   "contestant_rating": {
-    "inputs": "274bcb68c2d8767ed0e908b00af9791234fbf670f5705f822b68e77c859e6f62",
+    "inputs": "5cadca891db3c3e9e38870b699512f8b028fb786e70a64b8df37c4e48539fab7",
     "outputs": "e393724bf460593c0ca0f296e41d1c92f238217898cea23038960522e0473627"
   },
   "parser": {
@@ -8,15 +8,15 @@
     "outputs": "fddb4f4c3acc2b7f6ae0915ac242485a51775a81c4e4346ac55acc718ddbae59"
   },
   "performance_calculator": {
-    "inputs": "0fd29dccbdf4be5500b2d9b47675b63ccfe0c76f9716b9827ad6d02bea94d85e",
-    "outputs": "9b5bb2141e641062f87dea4768d2ff4a8c0dbe4f5d6e5d18e08c9d255f4ac2b3"
+    "inputs": "49d312d96966723e915a37abaa8b2e4d242ec07bedb2de9d39fa3177101084cd",
+    "outputs": "67995e231421ff0695ce5d7e81c7e4039fb4ea8b9a2116059fdfed93bf6ae8d7"
   },
   "rating_calculator": {
-    "inputs": "43bbff4b7eb2656b4b06325b75ca819e9998624f9d5d87c269d0988d43902128",
+    "inputs": "20341de54c1357047d816279677f2d978ed52d6a1cb52c191d7b554dcf03e940",
     "outputs": "fcb68a3ae39dcdf214db8b2db31a80170d4e635bd0fe3685b8a6ecfeab056159"
   },
   "score_calculator": {
-    "inputs": "814b8909e8c8cada80610368bf467e6d8e7f96074ae0b245bc47c68e3f56c154",
-    "outputs": "b75ce0df8ab8675d63be9c9116156ef77e506c80c9b6344964132c901f64da6e"
+    "inputs": "0ae2ca89f6e6e9b9d20ee0c1679128f6870ca6363745da9526e2836c8c8afe69",
+    "outputs": "b909fe8247a76b3f7c1970ef0a33bf70d6ff9e71fbabdc97f4722109a9e8961e"
   }
 }
