@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T18:46:36+00:00",
+  "fetched_at": "2026-11-03T17:06:35+00:00",
   "missing": [],
   "users": {
     "-..-": {
@@ -5223,7 +5223,7 @@
       "lastName": "Aftab",
       "maxRank": "expert",
       "maxRating": 1665,
-      "organization": "East West University",
+      "organization": "",
       "rank": "expert",
       "rating": 1665,
       "titlePhoto": "https://userpic.codeforces.org/2490490/title/ef938a0c105202f0.jpg"
@@ -11821,13 +11821,13 @@
     },
     "nisikto": {
       "avatar": "https://userpic.codeforces.org/no-avatar.jpg",
-      "country": null,
-      "firstName": null,
+      "country": "Bangladesh",
+      "firstName": "Mahfuz",
       "handle": "Nisikto",
-      "lastName": null,
+      "lastName": "Bin Minhaz",
       "maxRank": "expert",
       "maxRating": 1848,
-      "organization": "kaiboy fan club",
+      "organization": "Nisikto Academy",
       "rank": "specialist",
       "rating": 1491,
       "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
@@ -18736,17 +18736,17 @@
       "titlePhoto": "https://userpic.codeforces.org/no-title.jpg"
     },
     "tormuzz": {
-      "avatar": "https://userpic.codeforces.org/3731602/avatar/d9308a320bc4b628.jpg",
+      "avatar": "https://userpic.codeforces.org/3731602/avatar/3ce0e30717432ab3.jpg",
       "country": "Bangladesh",
       "firstName": null,
       "handle": "TorMuzZ",
       "lastName": null,
       "maxRank": "specialist",
       "maxRating": 1415,
-      "organization": "Bangladesh University of Business and Technology",
+      "organization": "",
       "rank": "pupil",
       "rating": 1263,
-      "titlePhoto": "https://userpic.codeforces.org/3731602/title/c74150f5c4963759.jpg"
+      "titlePhoto": "https://userpic.codeforces.org/3731602/title/997e2bd8ae7622be.jpg"
     },
     "toslim_aman": {
       "avatar": "https://userpic.codeforces.org/3744197/avatar/89ee8fa9c7790d6.jpg",
