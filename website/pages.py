@@ -481,6 +481,7 @@ def profile_page(person: dict, total: int) -> str:
   <span class="rating-value {tier}">{current}</span>
   <span class="muted">{standing(person['position'], total)}</span>
   <span class="muted">Rank #{person['position']} of {total}</span>
+  <span class="muted">Last active rank: #{person['last_active'][0]} of {person['last_active'][1]}</span>
 </div>"""
 
     chart = rating_chart([{'date': h['date'], 'rating': h['rating'], 'contest': h['contest'], 'rank': h['rank'], 'teams': h['teams']} for h in history])

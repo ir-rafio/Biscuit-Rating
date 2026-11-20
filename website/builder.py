@@ -34,8 +34,23 @@ def _rosters(ratings: pd.DataFrame, history: pd.DataFrame, cache: dict) -> dict[
     return rosters
 
 
+def _last_active(history: pd.DataFrame) -> dict[str, tuple[int, int]]:
+    """Each contestant's position in the rankings right after their last contest,
+    with the number of contestants rated by then."""
+    standings = {}
+    rating = {}
+    for _, rows in history.sort_values(["Date", "Contest"], kind="stable").groupby(["Date", "Contest"], sort=False):
+        rating.update(zip(rows["Handle"], rows["Rating"]))
+        ordered = sorted(rating.values(), reverse=True)
+        # Equal ratings share a position, as in the rankings; later contests overwrite earlier ones.
+        for handle in rows["Handle"]:
+            standings[handle] = (ordered.index(rating[handle]) + 1, len(ordered))
+    return standings
+
+
 def _people(ratings: pd.DataFrame, history: pd.DataFrame, credits: dict, cache: dict, rosters: dict) -> list[dict]:
     people = []
+    last_active = _last_active(history)
     by_handle = {handle: rows for handle, rows in history.groupby("Handle", sort=False)}
     position = 0
     previous_rating = None
@@ -54,6 +69,7 @@ def _people(ratings: pd.DataFrame, history: pd.DataFrame, credits: dict, cache: 
             "last_contest": row["Last Contest"],
             "institution": row["Institution"],
             "position": position,
+            "last_active": last_active[row["Handle"]],
             "history": [
                 {
                     "date": date.fromisoformat(h["Date"]),

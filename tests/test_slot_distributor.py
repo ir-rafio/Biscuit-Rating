@@ -37,7 +37,9 @@ def test_slot_distributor_generates_workbook():
         create_real_inputs(inputs)
         workbook = run(inputs, RATINGS, output)
         slots = pd.read_csv(output / "slots.csv")
-        assert (slots["Slots"] <= slots["Registered Slots"]).all()
+        assert slots.columns.tolist() == ["Institution", "Rating", "Slots"]
+        registered = pd.read_csv(inputs / "registered.csv").set_index("Institution")["Max Slots"]
+        assert (slots.set_index("Institution")["Slots"] <= registered.reindex(slots["Institution"]).values).all()
         assert (output / "waiting_list.csv").exists()
         with zipfile.ZipFile(workbook) as archive:
             assert "xl/workbook.xml" in archive.namelist()
